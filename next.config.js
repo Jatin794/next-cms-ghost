@@ -21,3 +21,10 @@ module.exports = withBundleAnalyzer({
   },
   reactStrictMode: true,
 })
+
+module.exports = {
+  images: {
+    loader: 'custom',
+    path: '/',
+  },
+}
