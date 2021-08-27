@@ -1,11 +1,18 @@
 ![next-cms-ghost](https://static.gotsby.org/v1/assets/images/next-ghost.png)
 
 # next-cms-ghost
+
 [![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 #### The fastest React frontend for headless Ghost CMS.
 
 Create and publish flaring fast blogs with <i>next-cms-ghost</i>. Powered by the React framework Next.js and content fed by headless Ghost, you'll get a production ready hybrid frontend that combines the best of static and server-rendered sites. Most importantly, your website can be easily distributed globally to be served from the edge. At the same time your content creators can continue to work with the Ghost authoring system they are used to.
+
+&nbsp;
+
+## 🔥 Alternative
+
+Check out [Blogody](https://www.blogody.com) for an integrated solution with all the benefits of this repository included!
 
 &nbsp;
 
@@ -250,4 +257,4 @@ This project is not affiliated with [NextJS](https://nextjs.org/) or [Ghost](htt
 
 # Copyright & License
 
-Copyright (c) 2020 styxlab - Released under the [MIT license](LICENSE).
+Copyright (c) 2020 - 2021 styxlab - Released under the [MIT license](LICENSE).
