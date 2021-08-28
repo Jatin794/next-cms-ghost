@@ -92,6 +92,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   return {
     paths,
-    fallback: processEnv.isr.enable,
+//    fallback: processEnv.isr.enable,
   }
 }
