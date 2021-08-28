@@ -2,11 +2,13 @@
 
 # next-cms-ghost
 
-[![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+#### Personal Review after trying it out.
 
-#### The fastest React frontend for headless Ghost CMS.
+Updating the readme here in case I might want to try it again and have forgotten past experiences.
 
-Create and publish flaring fast blogs with <i>next-cms-ghost</i>. Powered by the React framework Next.js and content fed by headless Ghost, you'll get a production ready hybrid frontend that combines the best of static and server-rendered sites. Most importantly, your website can be easily distributed globally to be served from the edge. At the same time your content creators can continue to work with the Ghost authoring system they are used to.
+Deploying it with anything but Vercel is kinda pointless (Image optimisations? So it said, but my images were just served from the origin anyway on Vercel. That's a lot of time spent into figuring out solution to a problem that doesn't need one.) (Fallback issues on slug pages. Fixing that would've taken quite some time figuring it out.)
+
+Guess I'll just figure something with my [11ty starter project](https://github.com/Jatin794/eleventy-starter-ghost). You can check out this one on Vercel [here](https://blogd.vercel.app/) if you prefer - not too fond of how it turned out. (I did only try it because the dev had a somewhat usable Gatsby starter, after all, and that one seems discontinued in favour of this Next starter)
 
 &nbsp;
 
