@@ -3,7 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
-  ...(process.env.CF_PAGES === 1),
+  ...(process.env.CF_PAGES === '1'),
   images: {
     deviceSizes: [320, 500, 680, 1040, 2080, 2048, 3120],
     domains: [
@@ -22,3 +22,9 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
 })
 
+module.exports = {
+  images: {
+    loader: 'custom',
+    path: '/',
+  },
+}
