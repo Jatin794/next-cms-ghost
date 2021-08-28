@@ -24,7 +24,7 @@ module.exports = withBundleAnalyzer({
 
 module.exports = {
   images: {
-    loader: 'custom',
-    path: 'https://ik.imagekit.io/bazv6s3x6am/blog/${src}?tr=w-${width}&q-${quality || 75}',
+    loader: 'imgix',
+    path: 'jknkj.imgix.net',
   },
 }
