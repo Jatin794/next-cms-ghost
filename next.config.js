@@ -24,11 +24,9 @@ module.exports = withBundleAnalyzer({
 
 module.exports = {
   images: {
-    loader: 'custom',
+    loader: 'myLoader',
   },
 }
-
-import Image from 'next/image'
 
 const myLoader = ({ src, width, quality }) => {
   return `https://ik.imagekit.io/bazv6s3x6am/blog/${src}?tr=w-${width}&q-${quality || 75}`
