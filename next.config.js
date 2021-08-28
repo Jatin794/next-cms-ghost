@@ -3,7 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
-  ...(process.env.CF_PAGES === '1'),
+  ...(process.env.NETLIFY === 'true' && { target: 'serverless' }),
   images: {
     deviceSizes: [320, 500, 680, 1040, 2080, 2048, 3120],
     domains: [
@@ -25,6 +25,11 @@ module.exports = withBundleAnalyzer({
 module.exports = {
   images: {
     loader: 'custom',
-    path: '/',
   },
+}
+
+import Image from 'next/image'
+
+const myLoader = ({ src, width, quality }) => {
+  return `https://ik.imagekit.io/bazv6s3x6am/blog/${src}?tr=w-${width}&q-${quality || 75}`
 }
