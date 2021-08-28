@@ -24,7 +24,7 @@ module.exports = withBundleAnalyzer({
 
 module.exports = {
   images: {
-    loader: 'myLoader',
+    loader: 'custom',
   },
 }
 
